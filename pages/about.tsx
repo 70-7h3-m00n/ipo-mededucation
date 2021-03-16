@@ -6,11 +6,11 @@ const about = () => {
       <Head>
         <title>О нас</title>
 
-        {/* <script type='text/javascript' src='/js/jquery-3.5.1.min.js'></script>
-        <script type='text/javascript' src='/js/slick.min.js'></script>
-        <script type='text/javascript' src='/js/jquery.fancybox.min.js'></script>
-        <script type='text/javascript' src='/js/stickykit.js'></script>
-        <script type='text/javascript' src='/js/myjs.js'></script> */}
+        {/* <script type='text/javascript' src='//js/jquery-3.5.1.min.js'></script>
+        <script type='text/javascript' src='//js/slick.min.js'></script>
+        <script type='text/javascript' src='//js/jquery.fancybox.min.js'></script>
+        <script type='text/javascript' src='//js/stickykit.js'></script>
+        <script type='text/javascript' src='//js/myjs.js'></script> */}
       </Head>
 
       {/* breadcrumbs */}
@@ -75,7 +75,7 @@ const about = () => {
                     href='images/diploms/diplom-1-big.jpg'
                     data-fancybox='diploms-gallery'
                   >
-                    <img src='images/diploms/diplom-1-small.jpg' alt='' />
+                    <img src='/images/diploms/diplom-1-small.jpg' alt='' />
                   </a>
                   <div className='name'>Письмо о внесении в список ФРДО</div>
                 </div>
@@ -85,7 +85,7 @@ const about = () => {
                     href='images/diploms/diplom-2-big.jpg'
                     data-fancybox='diploms-gallery'
                   >
-                    <img src='images/diploms/diplom-2-small.jpg' alt='' />
+                    <img src='/images/diploms/diplom-2-small.jpg' alt='' />
                   </a>
                   <div className='name'>Лицензия 1 стр</div>
                 </div>
@@ -95,7 +95,7 @@ const about = () => {
                     href='images/diploms/diplom-3-big.jpg'
                     data-fancybox='diploms-gallery'
                   >
-                    <img src='images/diploms/diplom-3-small.jpg' alt='' />
+                    <img src='/images/diploms/diplom-3-small.jpg' alt='' />
                   </a>
                   <div className='name'>Лицензия 2 стр</div>
                 </div>
@@ -105,7 +105,7 @@ const about = () => {
                     href='images/diploms/diplom-4-big.jpg'
                     data-fancybox='diploms-gallery'
                   >
-                    <img src='images/diploms/diplom-4-small.jpg' alt='' />
+                    <img src='/images/diploms/diplom-4-small.jpg' alt='' />
                   </a>
                   <div className='name'>Приложение 1.1</div>
                 </div>
@@ -115,7 +115,7 @@ const about = () => {
                     href='images/diploms/diplom-5-big.jpg'
                     data-fancybox='diploms-gallery'
                   >
-                    <img src='images/diploms/diplom-5-small.jpg' alt='' />
+                    <img src='/images/diploms/diplom-5-small.jpg' alt='' />
                   </a>
                   <div className='name'>Заключение о пож. безопасности</div>
                 </div>
@@ -125,7 +125,7 @@ const about = () => {
                     href='images/diploms/diplom-6-big.jpg'
                     data-fancybox='diploms-gallery'
                   >
-                    <img src='images/diploms/diplom-6-small.jpg' alt='' />
+                    <img src='/images/diploms/diplom-6-small.jpg' alt='' />
                   </a>
                   <div className='name'>
                     Санитарно-эпидемиологическое заключение
@@ -139,7 +139,7 @@ const about = () => {
               <ul className='about-docs-list'>
                 <li>
                   <div className='pic'>
-                    <img src='images/file-list.svg' alt='' />
+                    <img src='/images/file-list.svg' alt='' />
                   </div>
                   <a href=''>
                     Согласование программ по пожарно-техническому минимуму МУИР
@@ -147,7 +147,7 @@ const about = () => {
                 </li>
                 <li>
                   <div className='pic'>
-                    <img src='images/file-list.svg' alt='' />
+                    <img src='/images/file-list.svg' alt='' />
                   </div>
                   <a href=''>
                     Уведомление о внесении в реестр аккредитованных организаций,
@@ -156,13 +156,13 @@ const about = () => {
                 </li>
                 <li>
                   <div className='pic'>
-                    <img src='images/file-list.svg' alt='' />
+                    <img src='/images/file-list.svg' alt='' />
                   </div>
                   <a href=''>Политика конфиденциальности МУИР</a>
                 </li>
                 <li>
                   <div className='pic'>
-                    <img src='images/file-list.svg' alt='' />
+                    <img src='/images/file-list.svg' alt='' />
                   </div>
                   <a href=''>
                     Положение о реализации дополнительных профессиональных
