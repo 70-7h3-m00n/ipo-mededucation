@@ -4,13 +4,7 @@ const about = () => {
   return (
     <>
       <Head>
-        <title>О нас</title>
-
-        {/* <script type='text/javascript' src='//js/jquery-3.5.1.min.js'></script>
-        <script type='text/javascript' src='//js/slick.min.js'></script>
-        <script type='text/javascript' src='//js/jquery.fancybox.min.js'></script>
-        <script type='text/javascript' src='//js/stickykit.js'></script>
-        <script type='text/javascript' src='//js/myjs.js'></script> */}
+        <title>Сведения об образовательной организации</title>
       </Head>
 
       {/* breadcrumbs */}

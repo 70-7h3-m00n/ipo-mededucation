@@ -7,10 +7,10 @@ export default function Home() {
       <Head>
         <title>Институт профессионального образования - Медицина</title>
 
-        {/* <script type='text/javascript' src='/js/jquery-3.5.1.min.js'></script>
-        <script type='text/javascript' src='/js/slick.min.js'></script>
-        <script type='text/javascript' src='/js/jquery.fancybox.min.js'></script>
-        <script type='text/javascript' src='/js/myjs.js'></script> */}
+        {/* <script type='text/javascript' src='//js/jquery-3.5.1.min.js'></script>
+        <script type='text/javascript' src='//js/slick.min.js'></script>
+        <script type='text/javascript' src='//js/jquery.fancybox.min.js'></script>
+        <script type='text/javascript' src='//js/myjs.js'></script> */}
       </Head>
 
       {/* introdution-section */}
@@ -69,7 +69,7 @@ export default function Home() {
             <li>
               <a href=''>
                 <div className='pic'>
-                  <img src='images/programs/programs-pic-1.svg' alt='' />
+                  <img src='/images/programs/programs-pic-1.svg' alt='' />
                 </div>
                 <span>Сестринское дело в терапии</span>
               </a>
@@ -77,7 +77,7 @@ export default function Home() {
             <li>
               <a href=''>
                 <div className='pic'>
-                  <img src='images/programs/programs-pic-2.svg' alt='' />
+                  <img src='/images/programs/programs-pic-2.svg' alt='' />
                 </div>
                 <span>Сестринское дело в онкологии</span>
               </a>
@@ -85,7 +85,7 @@ export default function Home() {
             <li>
               <a href=''>
                 <div className='pic'>
-                  <img src='images/programs/programs-pic-3.svg' alt='' />
+                  <img src='/images/programs/programs-pic-3.svg' alt='' />
                 </div>
                 <span>Сестринское дело</span>
               </a>
@@ -93,7 +93,7 @@ export default function Home() {
             <li>
               <a href=''>
                 <div className='pic'>
-                  <img src='images/programs/programs-pic-4.svg' alt='' />
+                  <img src='/images/programs/programs-pic-4.svg' alt='' />
                 </div>
                 <span>Фтизиатрия</span>
               </a>
@@ -101,7 +101,7 @@ export default function Home() {
             <li>
               <a href=''>
                 <div className='pic'>
-                  <img src='images/programs/programs-pic-5.svg' alt='' />
+                  <img src='/images/programs/programs-pic-5.svg' alt='' />
                 </div>
                 <span>Судебно-медицинская экспертиза</span>
               </a>
@@ -109,7 +109,7 @@ export default function Home() {
             <li>
               <a href=''>
                 <div className='pic'>
-                  <img src='images/programs/programs-pic-6.svg' alt='' />
+                  <img src='/images/programs/programs-pic-6.svg' alt='' />
                 </div>
                 <span>Стоматология</span>
               </a>
@@ -117,7 +117,7 @@ export default function Home() {
             <li>
               <a href=''>
                 <div className='pic'>
-                  <img src='images/programs/programs-pic-1.svg' alt='' />
+                  <img src='/images/programs/programs-pic-1.svg' alt='' />
                 </div>
                 <span>Сестринское дело в терапии</span>
               </a>
@@ -125,7 +125,7 @@ export default function Home() {
             <li>
               <a href=''>
                 <div className='pic'>
-                  <img src='images/programs/programs-pic-2.svg' alt='' />
+                  <img src='/images/programs/programs-pic-2.svg' alt='' />
                 </div>
                 <span>Сестринское дело в онкологии</span>
               </a>
@@ -133,7 +133,7 @@ export default function Home() {
             <li>
               <a href=''>
                 <div className='pic'>
-                  <img src='images/programs/programs-pic-3.svg' alt='' />
+                  <img src='/images/programs/programs-pic-3.svg' alt='' />
                 </div>
                 <span>Сестринское дело</span>
               </a>
@@ -166,7 +166,7 @@ export default function Home() {
                 будут распределены по конкретным медицинским учреждениям.
               </p>
               <div className='image'>
-                <img src='images/news-pic-1.jpg' alt='' />
+                <img src='/images/news-pic-1.jpg' alt='' />
               </div>
             </a>
             <a href='' className='news-slider-block size-2'>
@@ -177,7 +177,7 @@ export default function Home() {
                 будут распределены по конкретным медицинским учреждениям.
               </p>
               <div className='image'>
-                <img src='images/news-pic-2.jpg' alt='' />
+                <img src='/images/news-pic-2.jpg' alt='' />
               </div>
             </a>
             <a href='' className='news-slider-block'>
@@ -187,7 +187,7 @@ export default function Home() {
                 до Нового года
               </h4>
               <div className='image'>
-                <img src='images/news-pic-3.jpg' alt='' />
+                <img src='/images/news-pic-3.jpg' alt='' />
               </div>
             </a>
             <a href='' className='news-slider-block'>
@@ -197,7 +197,7 @@ export default function Home() {
                 ученые призывают не забывать о медицинской этике
               </h4>
               <div className='image'>
-                <img src='images/news-pic-4.jpg' alt='' />
+                <img src='/images/news-pic-4.jpg' alt='' />
               </div>
             </a>
             <a href='' className='news-slider-block'>
@@ -207,7 +207,7 @@ export default function Home() {
                 объема закупок в сравнении с сентябрем этого года
               </h4>
               <div className='image'>
-                <img src='images/news-pic-5.jpg' alt='' />
+                <img src='/images/news-pic-5.jpg' alt='' />
               </div>
             </a>
           </div>
@@ -237,7 +237,7 @@ export default function Home() {
                 <span className='button white-button'>Принять участие</span>
               </div>
               <div className='image'>
-                <img src='images/vebinar-preview-1.jpg' alt='' />
+                <img src='/images/vebinar-preview-1.jpg' alt='' />
               </div>
             </a>
             <a href='' className='vebinars-slider-block'>
@@ -285,24 +285,24 @@ export default function Home() {
                 className='image'
                 data-fancybox='video-gallery'
               >
-                <img src='images/video-preview-1.jpg' alt='' />
+                <img src='/images/video-preview-1.jpg' alt='' />
               </a>
               <ul className='video-info'>
                 <li>
                   <div className='pic'>
-                    <img src='images/eye.svg' alt='' />
+                    <img src='/images/eye.svg' alt='' />
                   </div>
                   <span>177</span>
                 </li>
                 <li>
                   <div className='pic'>
-                    <img src='images/thumbs-up.svg' alt='' />
+                    <img src='/images/thumbs-up.svg' alt='' />
                   </div>
                   <span>6</span>
                 </li>
                 <li>
                   <div className='pic'>
-                    <img src='images/comments-alt.svg' alt='' />
+                    <img src='/images/comments-alt.svg' alt='' />
                   </div>
                   <span>0</span>
                 </li>
@@ -314,24 +314,24 @@ export default function Home() {
                 className='image'
                 data-fancybox='video-gallery'
               >
-                <img src='images/video-preview-2.jpg' alt='' />
+                <img src='/images/video-preview-2.jpg' alt='' />
               </a>
               <ul className='video-info'>
                 <li>
                   <div className='pic'>
-                    <img src='images/eye.svg' alt='' />
+                    <img src='/images/eye.svg' alt='' />
                   </div>
                   <span>250</span>
                 </li>
                 <li>
                   <div className='pic'>
-                    <img src='images/thumbs-up.svg' alt='' />
+                    <img src='/images/thumbs-up.svg' alt='' />
                   </div>
                   <span>25</span>
                 </li>
                 <li>
                   <div className='pic'>
-                    <img src='images/comments-alt.svg' alt='' />
+                    <img src='/images/comments-alt.svg' alt='' />
                   </div>
                   <span>15</span>
                 </li>
@@ -343,24 +343,24 @@ export default function Home() {
                 className='image'
                 data-fancybox='video-gallery'
               >
-                <img src='images/video-preview-3.jpg' alt='' />
+                <img src='/images/video-preview-3.jpg' alt='' />
               </a>
               <ul className='video-info'>
                 <li>
                   <div className='pic'>
-                    <img src='images/eye.svg' alt='' />
+                    <img src='/images/eye.svg' alt='' />
                   </div>
                   <span>342</span>
                 </li>
                 <li>
                   <div className='pic'>
-                    <img src='images/thumbs-up.svg' alt='' />
+                    <img src='/images/thumbs-up.svg' alt='' />
                   </div>
                   <span>154</span>
                 </li>
                 <li>
                   <div className='pic'>
-                    <img src='images/comments-alt.svg' alt='' />
+                    <img src='/images/comments-alt.svg' alt='' />
                   </div>
                   <span>58</span>
                 </li>
@@ -379,19 +379,19 @@ export default function Home() {
           <div className='partners-slider js-slick'>
             <div className='partners-slider-block'>
               <div className='image'>
-                <img src='images/partners/partners-pic-1.jpg' alt='' />
+                <img src='/images/partners/partners-pic-1.jpg' alt='' />
               </div>
               <div className='name'>ООО «БТЛ»</div>
             </div>
             <div className='partners-slider-block'>
               <div className='image'>
-                <img src='images/partners/partners-pic-2.jpg' alt='' />
+                <img src='/images/partners/partners-pic-2.jpg' alt='' />
               </div>
               <div className='name'>СЗГМУ им. И.И. Мечникова</div>
             </div>
             <div className='partners-slider-block'>
               <div className='image'>
-                <img src='images/partners/partners-pic-3.jpg' alt='' />
+                <img src='/images/partners/partners-pic-3.jpg' alt='' />
               </div>
               <div className='name'>
                 Кировский Государственный Медицинский Университет
@@ -399,7 +399,7 @@ export default function Home() {
             </div>
             <div className='partners-slider-block'>
               <div className='image'>
-                <img src='images/partners/partners-pic-4.jpg' alt='' />
+                <img src='/images/partners/partners-pic-4.jpg' alt='' />
               </div>
               <div className='name'>
                 Центр аккредитации РНИМУ им. Н.И. Пирогова
@@ -407,19 +407,19 @@ export default function Home() {
             </div>
             <div className='partners-slider-block'>
               <div className='image'>
-                <img src='images/partners/partners-pic-5.jpg' alt='' />
+                <img src='/images/partners/partners-pic-5.jpg' alt='' />
               </div>
               <div className='name'>Сколково</div>
             </div>
             <div className='partners-slider-block'>
               <div className='image'>
-                <img src='images/partners/partners-pic-2.jpg' alt='' />
+                <img src='/images/partners/partners-pic-2.jpg' alt='' />
               </div>
               <div className='name'>СЗГМУ им. И.И. Мечникова</div>
             </div>
             <div className='partners-slider-block'>
               <div className='image'>
-                <img src='images/partners/partners-pic-3.jpg' alt='' />
+                <img src='/images/partners/partners-pic-3.jpg' alt='' />
               </div>
               <div className='name'>
                 Кировский Государственный Медицинский Университет
@@ -427,7 +427,7 @@ export default function Home() {
             </div>
             <div className='partners-slider-block'>
               <div className='image'>
-                <img src='images/partners/partners-pic-4.jpg' alt='' />
+                <img src='/images/partners/partners-pic-4.jpg' alt='' />
               </div>
               <div className='name'>
                 Центр аккредитации РНИМУ им. Н.И. Пирогова
@@ -446,49 +446,49 @@ export default function Home() {
           <ul className='resources-list'>
             <li>
               <div className='pic'>
-                <img src='images/resources/resources-pic-1.svg' alt='' />
+                <img src='/images/resources/resources-pic-1.svg' alt='' />
               </div>
               <span>Электронно-библиотечная система</span>
             </li>
             <li>
               <div className='pic'>
-                <img src='images/resources/resources-pic-2.svg' alt='' />
+                <img src='/images/resources/resources-pic-2.svg' alt='' />
               </div>
               <span>Электронная медицинская библиотека</span>
             </li>
             <li>
               <div className='pic'>
-                <img src='images/resources/resources-pic-3.svg' alt='' />
+                <img src='/images/resources/resources-pic-3.svg' alt='' />
               </div>
               <span>Федеральное медико-биологическое агентство</span>
             </li>
             <li>
               <div className='pic'>
-                <img src='images/resources/resources-pic-4.svg' alt='' />
+                <img src='/images/resources/resources-pic-4.svg' alt='' />
               </div>
               <span>Фундаментальная медицинская библиотека</span>
             </li>
             <li>
               <div className='pic'>
-                <img src='images/resources/resources-pic-5.svg' alt='' />
+                <img src='/images/resources/resources-pic-5.svg' alt='' />
               </div>
               <span>Портал Непрерывного Медицинского Образования</span>
             </li>
             <li>
               <div className='pic'>
-                <img src='images/resources/resources-pic-6.svg' alt='' />
+                <img src='/images/resources/resources-pic-6.svg' alt='' />
               </div>
               <span>Медицинская энциклопедия</span>
             </li>
             <li>
               <div className='pic'>
-                <img src='images/resources/resources-pic-7.svg' alt='' />
+                <img src='/images/resources/resources-pic-7.svg' alt='' />
               </div>
               <span>Центральная Научная Медицинская Библиотека</span>
             </li>
             <li>
               <div className='pic'>
-                <img src='images/resources/resources-pic-8.svg' alt='' />
+                <img src='/images/resources/resources-pic-8.svg' alt='' />
               </div>
               <span>Единое окно доступа к информационным ресурсам</span>
             </li>
@@ -563,7 +563,7 @@ export default function Home() {
                 </ul>
               </div>
               <div className='contacts-map-frame'>
-                <img src='images/map.jpg' className='example-map' alt='' />
+                <img src='/images/map.jpg' className='example-map' alt='' />
               </div>
             </div>
           </div>

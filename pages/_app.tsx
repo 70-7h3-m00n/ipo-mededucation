@@ -3,10 +3,6 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import PageWrapper from '../components/PageWrapper'
 import '../styles/hugeStyle.scss'
-import dynamic from 'next/dynamic'
-// import vendors from '../vendors/lazyYT'
-
-// const DynamicComponent = dynamic(() => import('../vendors/stickykit'))
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -29,5 +25,7 @@ function MyApp({ Component, pageProps }) {
     </>
   )
 }
+
+
 
 export default MyApp

@@ -8,7 +8,7 @@ const Header = () => {
               <li>
                 <a href='' className='main-logo'>
                   <div className='pic'>
-                    <img src='images/main-logo.png' alt='' />
+                    <img src='/images/main-logo.png' alt='' />
                   </div>
                   <span>Институт профессионального образования</span>
                 </a>
@@ -114,22 +114,22 @@ const Header = () => {
                 <ul className='socials-list'>
                   <li>
                     <a href='' className='youtube'>
-                      <img src='images/youtube.svg' alt='' />
+                      <img src='/images/youtube.svg' alt='' />
                     </a>
                   </li>
                   <li>
                     <a href='' className='vk'>
-                      <img src='images/vk.svg' alt='' />
+                      <img src='/images/vk.svg' alt='' />
                     </a>
                   </li>
                   <li>
                     <a href='' className='facebook'>
-                      <img src='images/facebook.svg' alt='' />
+                      <img src='/images/facebook.svg' alt='' />
                     </a>
                   </li>
                   <li>
                     <a href='' className='instagram'>
-                      <img src='images/instagram.svg' alt='' />
+                      <img src='/images/instagram.svg' alt='' />
                     </a>
                   </li>
                 </ul>
@@ -141,7 +141,7 @@ const Header = () => {
               >
                 <input type='text' />
                 <button type='submit'>
-                  <img src='images/search.svg' alt='' />
+                  <img src='/images/search.svg' alt='' />
                 </button>
               </form>
             </div>
@@ -167,10 +167,10 @@ const Header = () => {
         <div className='container'>
           <ul className='footer-bottom-systems'>
             <li>
-              <img src='images/footer-pay-systems-1.jpg' alt='' />
+              <img src='/images/footer-pay-systems-1.jpg' alt='' />
             </li>
             <li>
-              <img src='images/footer-pay-systems-2.jpg' alt='' />
+              <img src='/images/footer-pay-systems-2.jpg' alt='' />
             </li>
           </ul>
         </div>
