@@ -1,6 +1,19 @@
 import Head from 'next/head'
+import { useEffect } from 'react'
+import loadJs from 'loadjs'
 
 const teacher = () => {
+
+  useEffect(() => {
+    loadJs([
+      '/js/slick.min.js',
+      '/js/jquery.fancybox.min.js',
+      '/js/myjs.js'
+    ], {
+      async: false
+    })
+  }, [])
+
   return (
     <>
       <Head>

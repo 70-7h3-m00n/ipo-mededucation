@@ -1,6 +1,19 @@
 import Head from 'next/head'
 
+import { useEffect } from 'react'
+import loadJs from 'loadjs'
+
 const archive = () => {
+
+  useEffect(() => {
+    loadJs([
+      '/js/lazyYT.js',
+      '/js/myjs.js'
+    ], {
+      async: false
+    })
+  }, [])
+
   return (
     <>
       <Head>

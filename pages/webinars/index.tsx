@@ -1,6 +1,17 @@
 import Head from 'next/head'
+import { useEffect } from 'react'
+import loadJs from 'loadjs'
 
 const webinars = () => {
+
+  useEffect(() => {
+    loadJs([
+      '/js/myjs.js'
+    ], {
+      async: false
+    })
+  }, [])
+
   return (
     <>
       <Head>
