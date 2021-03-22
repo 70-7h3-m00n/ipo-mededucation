@@ -3,8 +3,8 @@ import Link from 'next/link'
 const Header = () => {
   return (
     <header>
-      {/* <Link href='/'>Home</Link>
-      <Link href='/about'>About</Link> */}
+      <Link href='/'>Home</Link>
+      <Link href='/about'>About</Link>
       <div className='container'>
         <div className='header-top'>
           <a href='' className='main-logo'>

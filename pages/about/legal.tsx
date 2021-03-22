@@ -1,6 +1,21 @@
 import Head from 'next/head'
+import { useEffect } from 'react'
+import loadJs from 'loadjs'
 
 const legal = () => {
+
+  useEffect(() => {
+    loadJs(
+      [
+        '/js/stickykit.js',
+        '/js/myjs.js',
+      ],
+      {
+        async: false,
+      }
+    )
+  }, [])
+
   return (
     <>
       <Head>

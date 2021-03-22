@@ -1,6 +1,21 @@
 import Head from 'next/head'
+import { useEffect } from 'react'
+import loadJs from 'loadjs'
 
 const about = () => {
+  useEffect(() => {
+
+    loadJs([
+      '/js/slick.min.js',
+      '/js/jquery.fancybox.min.js',
+      '/js/stickykit.js',
+      '/js/myjs.js'
+    ], {
+      async: false
+    })
+
+  }, [])
+
   return (
     <>
       <Head>

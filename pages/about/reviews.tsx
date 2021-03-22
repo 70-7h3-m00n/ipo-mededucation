@@ -1,6 +1,20 @@
 import Head from 'next/head'
+import { useEffect } from 'react'
+import loadJs from 'loadjs'
 
 const reviews = () => {
+  useEffect(() => {
+
+    loadJs([
+      '/js/jquery.fancybox.min.js',
+      '/js/stickykit.js',
+      '/js/myjs.js'
+    ], {
+      async: false
+    })
+
+  }, [])
+
   return (
     <>
       <Head>

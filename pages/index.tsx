@@ -1,16 +1,27 @@
 import Link from 'next/link'
 import Head from 'next/head'
+import { useEffect } from 'react'
+import loadJs from 'loadjs'
 
 export default function Home() {
+  useEffect(() => {
+    loadJs([
+      '/js/slick.min.js',
+      '/js/jquery.fancybox.min.js',
+      '/js/stickykit.js',
+      '/js/jquery.autocolumnlist.min.js',
+      '/js/masonry.min.js',
+      '/js/lazyYT.js',
+      '/js/myjs.js'
+    ], {
+      async: false
+    })
+  }, [])
+
   return (
     <>
       <Head>
         <title>Институт профессионального образования - Медицина</title>
-
-        {/* <script type='text/javascript' src='//js/jquery-3.5.1.min.js'></script>
-        <script type='text/javascript' src='//js/slick.min.js'></script>
-        <script type='text/javascript' src='//js/jquery.fancybox.min.js'></script>
-        <script type='text/javascript' src='//js/myjs.js'></script> */}
       </Head>
 
       {/* introdution-section */}

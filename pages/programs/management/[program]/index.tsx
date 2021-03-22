@@ -1,6 +1,22 @@
 import Head from 'next/head'
+import { useEffect } from 'react'
+import loadJs from 'loadjs'
 
 const managementProgram = () => {
+
+  useEffect(() => {
+    loadJs([
+      '/js/slick.min.js',
+      '/js/jquery.fancybox.min.js',
+      '/js/stickykit.js',
+      '/js/jquery.autocolumnlist.min.js',
+      '/js/myjs.js'
+    ], {
+      async: false
+    })
+  }, [])
+
+  
   return (
     <>
       <Head>
