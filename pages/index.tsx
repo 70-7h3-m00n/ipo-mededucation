@@ -5,6 +5,7 @@ import loadJs from 'loadjs'
 
 export default function Home() {
   useEffect(() => {
+
     loadJs([
       '/js/slick.min.js',
       '/js/jquery.fancybox.min.js',
